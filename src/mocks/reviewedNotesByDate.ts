@@ -1,6 +1,6 @@
 import type { ReviewedNote } from "@/types/reviewedNote";
 
-const REVIEWED_NOTES_BY_DATE: Record<string, ReviewedNote[]> = {
+const REVIEWED_NOTES_BY_DATE: Partial<Record<string, ReviewedNote[]>> = {
   "2026-10-19": [{ id: 3, fileName: "functional-interface" }],
   "2026-10-18": [{ id: 9, fileName: "01_jpa-entity-mapping" }],
   "2026-10-16": [
