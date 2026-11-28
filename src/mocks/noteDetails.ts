@@ -1,4 +1,6 @@
-const NOTE_DETAILS = [
+import type { NoteDetail } from "@/types/noteDetail";
+
+const NOTE_DETAILS: NoteDetail[] = [
   {
     id: 1,
     html: "<p>No.1 eslint-vs-prettier-roles（仮）</p>",

@@ -1,4 +1,4 @@
-const REVIEWED_DATES = [
+const REVIEWED_DATES: string[] = [
   "2026-10-19",
   "2026-10-18",
   "2026-10-16",

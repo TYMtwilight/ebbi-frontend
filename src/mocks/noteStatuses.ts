@@ -1,4 +1,6 @@
-const NOTE_STATUSES = [
+import type { NoteStatus } from "@/types/noteStatus";
+
+const NOTE_STATUSES: NoteStatus[] = [
   {
     id: 1,
     fileName: "eslint-vs-prettier-roles",

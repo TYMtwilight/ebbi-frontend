@@ -1,4 +1,7 @@
-const ALL_NOTES = [
+import type { FileNode } from "@/types/fileNode";
+import type { FolderNode } from "@/types/folderNode";
+
+const ALL_NOTES: (FolderNode | FileNode)[] = [
   {
     type: "folder",
     name: "frontend",
