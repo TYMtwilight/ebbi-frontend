@@ -48,6 +48,9 @@ export async function getReviewedDates(): Promise<string[]> {
 export async function getReviewedNotesByDate(
   date: string,
 ): Promise<ReviewedNote[] | null> {
+  if (!Object.hasOwn(REVIEWED_NOTES_BY_DATE, date)) {
+    return null;
+  }
   const notes = REVIEWED_NOTES_BY_DATE[date];
-  return notes && notes.length > 0 ? structuredClone(notes) : null;
+  return notes ? structuredClone(notes) : null;
 }
