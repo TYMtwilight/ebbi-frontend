@@ -1,7 +1,6 @@
-/**
- * データ取得関数。今はダミーデータ（src/mocks/）を返す。
- * 画面が値を書き換えてもダミーデータが変わらないよう、コピーを返す。
- */
+// データ取得関数。今はダミーデータ（src/mocks/）を返す。
+// 画面が値を書き換えてもダミーデータが変わらないよう、コピーを返す。
+
 import { ALL_NOTES } from "@/mocks/allNotes";
 import { NOTE_DETAILS } from "@/mocks/noteDetails";
 import { NOTE_STATUSES } from "@/mocks/noteStatuses";
