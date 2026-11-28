@@ -1,4 +1,6 @@
-const TODAY_NOTES = [
+import type { TodayNote } from "@/types/todayNote";
+
+const TODAY_NOTES: TodayNote[] = [
   {
     id: 1,
     fileName: "eslint-vs-prettier-roles",

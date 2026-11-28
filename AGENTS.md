@@ -33,7 +33,8 @@ public/
 
 ## ブランチ
 
-- `feature/作業ID-内容` を切り、PR経由でmainにマージする（例：feature/2-03-note-list）
+- `Issue番号-feature作業ID-内容` を切り、PR経由でmainにマージする（例：6-feature30-03-6つのデータ取得関数を作る）
+- Issue番号は、そのブランチで対応するIssueの番号（例：#6 なら 6）
 - mainに直接pushしない
 
 ## コミットメッセージ
